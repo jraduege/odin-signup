@@ -81,3 +81,35 @@ span.maintext {
     box-shadow: 0 0 1em rgba(0,0,0,0.3);
 }
 
+table {
+    border-spacing: 2em 0.1em;
+    margin-left: -2em;
+}
+
+.formlable {
+    font-size: 0.5em;
+    padding-top: 1em;
+}
+
+fieldset {
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.subbut {
+    padding: 0.5em 2em 0.5em 2em;
+    color:antiquewhite;
+    background: rgb(222, 122, 102);
+    border-radius: 0.5em;
+    border-width: 0;
+}
+
+.logprompt {
+    font-size: 0.8em;
+}
+
+a.loglink {
+    color: rgb(222, 122, 102);
+    text-decoration: none;
+}
