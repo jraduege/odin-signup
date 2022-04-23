@@ -1,0 +1,83 @@
+
+@import url("shield-medieval-svgrepo-com.svg");
+
+:root {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.picture {
+    background-image: url("Tower.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    padding-top: 15em;
+    padding-bottom: 20em;
+}
+
+.caption {
+    font-family: MedievalSharp;
+    font-size: 3em;
+    padding: 1em;
+    display: flex;
+    color:antiquewhite;
+    background: rgba(0, 0, 0, 0.5);;
+}
+
+span.maintext {
+    opacity: 1;
+    justify-content: center;
+}
+
+.shield {
+    height: 1em;
+    padding: 0.53em;
+    align-items: center;
+    filter: invert(98%) sepia(60%) saturate(483%) hue-rotate(306deg) brightness(101%) contrast(96%);
+    opacity: 1;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.textbox, .buttonbox {
+    background: antiquewhite;
+    flex: 1;
+    padding: 20px;
+}
+
+.textbox {
+    align-items: center;
+    justify-content: center;
+}
+
+.formbox {
+    background: antiquewhite;
+    flex: 1;
+
+
+}
+
+.formarea {
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 1em rgba(0,0,0,0.3);
+}
+
