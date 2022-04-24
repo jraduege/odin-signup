@@ -113,3 +113,26 @@ a.loglink {
     color: rgb(222, 122, 102);
     text-decoration: none;
 }
+
+.psych {
+    position: relative;
+    top: 8em;
+}
+
+.error {
+    border-color: red;
+}
+
+.errormessage {
+    color: red;
+    font-size: 0.5em;
+    position: relative;
+}
+
+.match {
+    visibility: hidden;
+}
+
+.nomatch {
+    visibility: visible;
+}

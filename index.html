@@ -45,10 +45,10 @@
                                 </tr>
                                 <tr>
                                     <td class="entry">
-                                        <input type="text" name="" id="firstname">
+                                        <input type="text" name="firstName" id="firstname">
                                     </td>
                                     <td class="entry">
-                                        <input type="text" name="" id="lastname">
+                                        <input type="text" name="lastName" id="lastname">
                                     </td>
                                 </tr>
                                 <tr>
@@ -61,10 +61,10 @@
                                 </tr>
                                 <tr>
                                     <td class="entry">
-                                        <input type="email" name="" id="emailaddress">
+                                        <input type="email" name="emailAddress" id="emailaddress">
                                     </td>
                                     <td class="entry">
-                                        <input type="number" name="" id="phonenumber">
+                                        <input type="text" name="phoneNumber" id="phonenumber" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$">
                                     </td>
                                 </tr>
                                 <tr>
@@ -77,20 +77,27 @@
                                 </tr>
                                 <tr>
                                     <td class="entry">
-                                        <input type="password" name="lvecpass" id="password1">
+                                        <input type="password" name="lvecpass1" id="password1" class="error">
                                     </td>
                                     <td class="entry">
-                                        <input type="password" name="lvecpass" id="password2">
+                                        <input type="password" name="lvecpass2" id="password2" class="error">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="errormessage">
+                                        *Passwords do not match
                                     </td>
                                 </tr>
                             </table>
                         </fieldset>
+                        <div class="psych"> 
+                            <button class="subbut" type="submit">Create Account</button>
+                            <p class="logprompt">Already have an account? <a class="loglink" href="./login.html">Log in</a></p>
+                        </div>
                     </form>
                 </div>
             </div>
             <div class="buttonbox">
-                <button class="subbut" type="submit">Create Account</button>
-                 <p class="logprompt">Already have an account? <a class="loglink" href="./login.html">Log in</a></p>
             </div>
         </span>
     </div>
